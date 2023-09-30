@@ -13,7 +13,7 @@ app
 sequelize.initDb()
 
 app.get('/', (req, res) => {
-    res.json('Hello, Heroku !')
+    res.json('Hello, Vercel !')
 })
 
 // Ici, nous placerons nos futurs points de terminaison.
